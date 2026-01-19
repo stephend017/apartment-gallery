@@ -42,7 +42,7 @@ export default async function GalleryPage({ params }: PageProps) {
 
   return (
     <div
-      className="flex h-screen items-center justify-center bg-zinc-50 dark:bg-black"
+      className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black p-4 sm:p-6 md:p-8"
       style={{
         backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH || ""}${content.leftImageSrc})`,
         backgroundSize: "cover",
@@ -51,8 +51,11 @@ export default async function GalleryPage({ params }: PageProps) {
     >
       <main
         className="
+  w-full
   max-w-4xl 
-  p-12 
+  p-6
+  sm:p-8
+  md:p-12
   rounded-2xl 
   shadow-xl
   bg-white/50 
@@ -64,15 +67,15 @@ export default async function GalleryPage({ params }: PageProps) {
   dark:border-white/10
 "
       >
-        <header className="mb-6">
+        <header className="mb-4 sm:mb-6">
           <h1
-            className="text-5xl font-extrabold mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 sm:mb-6"
             style={{ fontFamily: '"Edu NSW ACT Cursive"' }}
           >
             {title}
           </h1>
           <p
-            className="text-sm  dark:text-zinc-400"
+            className="text-xs sm:text-sm dark:text-zinc-400"
             style={{ fontFamily: '"Noto Sans"' }}
           >
             <strong>Painted:</strong> {paintedDate} <br />
@@ -81,27 +84,27 @@ export default async function GalleryPage({ params }: PageProps) {
         </header>
 
         <p
-          className="text-lg  dark:text-zinc-300"
+          className="text-base sm:text-lg dark:text-zinc-300"
           style={{ fontFamily: '"Noto Sans"' }}
         >
           {description}
         </p>
 
-        <section className="flex gap-6 justify-left mt-10">
+        <section className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mt-6 sm:mt-10">
           <Image
             src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}${leftImageSrc}`}
             alt={`${title} painting`}
-            width={350}
-            height={350}
-            className="rounded-2xl object-cover"
+            width={175}
+            height={175}
+            className="rounded-2xl object-cover w-full sm:w-auto"
             priority
           />
           <Image
             src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}${rightImageSrc}`}
             alt={`${title} reference`}
-            width={350}
-            height={350}
-            className="rounded-2xl object-cover"
+            width={175}
+            height={175}
+            className="rounded-2xl object-cover w-full sm:w-auto"
             priority
           />
         </section>
