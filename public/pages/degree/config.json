@@ -1,0 +1,13 @@
+{
+  "title": "Purdue University Degree",
+  "paintedDate": "January 2021",
+  "artist": "Stephen E. Davis",
+  "description": "Diploma paper.\n\nThis degree is a testament to Stephen E. Davis’ intellect, ambition and insanity. A proud recipient of a Bachelor of Science from Purdue University, Mr. Davis spent the years of 2017 - 2021 immersed in the world of computers, Mr. Akshay Pawar, missing deadlines and “world-renowned” ramen at Yatagarasu, Lafayette, Indiana.",
+  "images": [
+    {
+      "src": "/pages/degree/degree.jpg",
+      "caption": "Diploma (print on paper)",
+      "isBackground": true
+    }
+  ]
+}

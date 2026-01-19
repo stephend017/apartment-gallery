@@ -6,10 +6,11 @@ export interface GalleryContent {
   paintedDate: string;
   artist: string;
   description: string;
-  leftImageSrc: string;
-  rightImageSrc: string;
-  leftImageCaption?: string;
-  rightImageCaption?: string;
+  images: Array<{
+    src: string;
+    caption?: string;
+    isBackground?: boolean;
+  }>;
 }
 
 export async function loadGalleryContent(id: string): Promise<GalleryContent> {

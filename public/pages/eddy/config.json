@@ -3,8 +3,15 @@
   "paintedDate": "January 2026",
   "artist": "Stephen",
   "description": "Eddy was fostered from November 2025 - present. He is an asshole who swats",
-  "leftImageSrc": "/pages/eddy/painted.jpg",
-  "rightImageSrc": "/pages/eddy/reference.jpeg",
-  "leftImageCaption": "Original Painting (acrylic on canvas)",
-  "rightImageCaption": "Reference Image"
+  "images": [
+    {
+      "src": "/pages/eddy/painted.jpg",
+      "caption": "Original Painting (acrylic on canvas)",
+      "isBackground": true
+    },
+    {
+      "src": "/pages/eddy/reference.jpeg",
+      "caption": "Reference Image"
+    }
+  ]
 }
