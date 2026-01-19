@@ -24,6 +24,8 @@ export async function generateStaticParams() {
 export default async function GalleryPage({ params }: PageProps) {
   const { id } = await params
 
+  console.log(process.env)
+
   let content
   try {
     content = await loadGalleryContent(id)
@@ -71,7 +73,7 @@ export default async function GalleryPage({ params }: PageProps) {
 
         <section className="flex gap-6 justify-left mt-10">
           <Image
-            src={`${process.env.basePath || ''}${leftImageSrc}`}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${leftImageSrc}`}
             alt={`${title} painting`}
             width={350}
             height={350}
@@ -79,7 +81,7 @@ export default async function GalleryPage({ params }: PageProps) {
             priority
           />
           <Image
-            src={`${process.env.basePath || ''}${rightImageSrc}`}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${rightImageSrc}`}
             alt={`${title} reference`}
             width={350}
             height={350}
