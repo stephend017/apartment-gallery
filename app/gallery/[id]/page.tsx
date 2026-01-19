@@ -1,11 +1,24 @@
 import Image from "next/image"
 import { notFound } from "next/navigation"
 import { loadGalleryContent } from "@/lib/gallery"
+import { readdir } from "fs/promises"
+import { join } from "path"
 
 type PageProps = {
   params: Promise<{
     id: string
   }>
+}
+
+// This function tells Next.js which dynamic routes to pre-render
+export async function generateStaticParams() {
+  const pagesDir = join(process.cwd(), 'public', 'pages')
+  const entries = await readdir(pagesDir, { withFileTypes: true })
+  const pageNames = entries
+    .filter(dirent => dirent.isDirectory())
+    .map(dirent => ({ id: dirent.name }))
+  
+  return pageNames
 }
 
 export default async function GalleryPage({ params }: PageProps) {
