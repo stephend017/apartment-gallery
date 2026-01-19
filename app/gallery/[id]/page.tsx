@@ -71,7 +71,7 @@ export default async function GalleryPage({ params }: PageProps) {
 
         <section className="flex gap-6 justify-left mt-10">
           <Image
-            src={leftImageSrc}
+            src={`${process.env.basePath || ''}${leftImageSrc}`}
             alt={`${title} painting`}
             width={350}
             height={350}
@@ -79,7 +79,7 @@ export default async function GalleryPage({ params }: PageProps) {
             priority
           />
           <Image
-            src={rightImageSrc}
+            src={`${process.env.basePath || ''}${rightImageSrc}`}
             alt={`${title} reference`}
             width={350}
             height={350}
