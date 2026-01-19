@@ -29,8 +29,8 @@ jobs:
         run: npm ci
         
       - name: Build
-        env:
-          NODE_ENV: production
+        env: 
+          NEXT_PUBLIC_BASE_PATH: /apartment-gallery
         run: npm run build
         
       - name: Upload artifact
