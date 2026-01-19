@@ -2,7 +2,9 @@
   "title": "Connie",
   "paintedDate": "January 2026",
   "artist": "Mag",
-  "description": "Connie was fostered from November 2025 - present. she is very demure. Painting (left) presented next to the reference image (right).",
+  "description": "Connie was fostered from November 2025 - present. she is very demure.",
   "leftImageSrc": "/pages/connie/painted.jpg",
-  "rightImageSrc": "/pages/connie/reference.jpeg"
+  "rightImageSrc": "/pages/connie/reference.jpeg",
+  "leftImageCaption": "Original Painting (acrylic on canvas)",
+  "rightImageCaption": "Reference Image"
 }

@@ -8,6 +8,8 @@ export interface GalleryContent {
   description: string;
   leftImageSrc: string;
   rightImageSrc: string;
+  leftImageCaption?: string;
+  rightImageCaption?: string;
 }
 
 export async function loadGalleryContent(id: string): Promise<GalleryContent> {

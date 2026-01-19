@@ -37,7 +37,9 @@ export default async function GalleryPage({ params }: PageProps) {
     artist,
     description,
     leftImageSrc,
+    leftImageCaption,
     rightImageSrc,
+    rightImageCaption
   } = content;
 
   return (
@@ -52,10 +54,9 @@ export default async function GalleryPage({ params }: PageProps) {
       <main
         className="
   w-full
-  max-w-4xl 
+  max-w-4xl
+  max-w-sm mx-auto
   p-6
-  sm:p-8
-  md:p-12
   rounded-2xl 
   shadow-xl
   bg-white/50 
@@ -90,23 +91,42 @@ export default async function GalleryPage({ params }: PageProps) {
           {description}
         </p>
 
-        <section className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mt-6 sm:mt-10">
+        <section className="flex flex-col gap-6 justify-center mt-10">
+          <figure className="border-zinc-200/50 border-1 rounded-t-2xl rounded-b-lg">
+          
           <Image
             src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}${leftImageSrc}`}
             alt={`${title} painting`}
             width={175}
             height={175}
-            className="rounded-2xl object-cover w-full sm:w-auto"
+            className="rounded-t-2xl object-cover w-full sm:w-auto"
             priority
-          />
+            />
+
+            {leftImageCaption && (
+              <figcaption className='bg-zinc-200/50 dark:bg-zinc-800/50 font-bold text-xs sm:text-sm p-3 rounded-b-lg' style={{ fontFamily: '"Noto Sans"' }}>
+                {leftImageCaption}
+              </figcaption>
+            )}
+          </figure>
+                    <figure className="border-zinc-200/50 border-1 rounded-t-2xl rounded-b-lg">
+
+
           <Image
             src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}${rightImageSrc}`}
             alt={`${title} reference`}
             width={175}
             height={175}
-            className="rounded-2xl object-cover w-full sm:w-auto"
+            className="rounded-t-2xl object-cover w-full sm:w-auto"
             priority
           />
+          { rightImageCaption && (
+            <figcaption className='bg-zinc-200/50 dark:bg-zinc-800/50 font-bold text-xs sm:text-sm p-3 rounded-b-lg' style={{ fontFamily: '"Noto Sans"' }}>
+              {rightImageCaption}
+            </figcaption>
+          )}
+          </figure>
+
         </section>
       </main>
     </div>
