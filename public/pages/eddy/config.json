@@ -1,7 +1,17 @@
 {
   "title": "Eddy",
-  "paintedDate": "January 2026",
-  "artist": "Stephen",
+  "metadata": [
+    {
+      "label": "Painted",
+      "value": "November 2025",
+      "format": "date"
+    },
+    {
+      "label": "Painter",
+      "value": "Stephen E. Davis",
+      "format": "person"
+    }
+  ],
   "description": "Eddy was fostered from November 2025 - present. He is an asshole who swats",
   "images": [
     {

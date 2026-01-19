@@ -3,6 +3,8 @@ import { loadGalleryContent } from "@/lib/gallery";
 import { readdir } from "fs/promises";
 import { join } from "path";
 import { ImageFigure } from "./image-figure";
+import { Title } from "./title";
+import { Description } from "./description";
 
 type PageProps = {
   params: Promise<{
@@ -31,7 +33,7 @@ export default async function GalleryPage({ params }: PageProps) {
     notFound();
   }
 
-  const { title, paintedDate, artist, description, images } = content;
+  const { title, metadata, description, images } = content;
 
   return (
     <div
@@ -59,28 +61,9 @@ export default async function GalleryPage({ params }: PageProps) {
           dark:border-white/10
         "
       >
-        <header className="mb-4 sm:mb-6">
-          <h1
-            className="text-3xl sm:text-4xl md:text-5xl/5xl font-extrabold mb-4"
-            style={{ fontFamily: '"Edu NSW ACT Cursive"' }}
-          >
-            {title}
-          </h1>
-          <p
-            className="text-xs sm:text-sm dark:text-zinc-400"
-            style={{ fontFamily: '"Noto Sans"' }}
-          >
-            <strong>Painted:</strong> {paintedDate} <br />
-            <strong>Artist:</strong> {artist}
-          </p>
-        </header>
+        <Title title={title} metadata={metadata} />
 
-        <p
-          className="text-base sm:text-lg dark:text-zinc-300 whitespace-pre-line"
-          style={{ fontFamily: '"Noto Sans"' }}
-        >
-          {description}
-        </p>
+        <Description description={description} />
 
         <section className="flex flex-col gap-6 justify-center mt-5">
           {images.map((image, index) => (

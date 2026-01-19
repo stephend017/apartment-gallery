@@ -14,7 +14,7 @@ export function ImageFigure({
   basePath = "",
 }: ImageFigureProps) {
   return (
-    <figure className="border-zinc-200/50 border-1 rounded-t-2xl rounded-b-lg">
+    <figure className="border-zinc-700/50 border-2 rounded-t-2xl rounded-b-lg">
       <Image
         src={`${basePath}${src}`}
         alt={alt}
@@ -25,7 +25,7 @@ export function ImageFigure({
       />
       {caption && (
         <figcaption
-          className="bg-zinc-200/50 dark:bg-zinc-800/50 font-bold text-xs sm:text-sm p-3 rounded-b-lg"
+          className="bg-zinc-200/50 dark:bg-zinc-800/50 font-bold text-xs sm:text-sm p-3 rounded-b-lg border-t-1 border-zinc-700/50"
           style={{ fontFamily: '"Noto Sans"' }}
         >
           {caption}

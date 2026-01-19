@@ -3,8 +3,11 @@ import path from "path";
 
 export interface GalleryContent {
   title: string;
-  paintedDate: string;
-  artist: string;
+  metadata: {
+    label: string;
+    value: string;
+    format: string;
+  }[];
   description: string;
   images: Array<{
     src: string;

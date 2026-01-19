@@ -1,7 +1,17 @@
 {
   "title": "Connie",
-  "paintedDate": "January 2026",
-  "artist": "Mag",
+  "metadata": [
+    {
+      "label": "Painted",
+      "value": "November 2025",
+      "format": "date"
+    },
+    {
+      "label": "Painter",
+      "value": "Mag J.H. Lam",
+      "format": "person"
+    }
+  ],
   "description": "Connie was fostered from November 2025 - present. she is very demure.",
   "images": [
     {
