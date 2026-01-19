@@ -1,0 +1,32 @@
+{
+  "title": "Collage with 宝贝",
+  "metadata": [
+    {
+      "label": "Donors",
+      "value": "Stephen E. Davis, Amanda Yan (Fish Machine [3])",
+      "format": "people"
+    }
+  ],
+  "description": "Collage on cardstock and photo paper.\n\nThe centerpiece of this collage is a portrait of the male tenant of this residence, Stephen E. Davis. Born on August 6, 1999, in Baltimore, Maryland, Mr. Davis is a highly divisive figure due to his penchant for imitating a Singaporean accent and claiming he came from “the hood,” even though he is a red-blooded Ohioan. This collage is a testament to what Mr. Davis enjoys: coffee, restaurants, animals, America and technology.\n\nThis collage was designed by Magdalene Lam, as a gift to Stephen E. Davis for finally starting to frame all the prints they have collected since pre-union.",
+  "images": [
+    {
+      "src": "/pages/stephen-collage/stephen-collage-placement.png",
+      "caption": "[1] Stephen E. Davis, [2] Cool Frog, [3] Fish Machine, [4] Restaurant (NYC), [5] Cool Dog, [6] Coffee Otters, [7] Almost Sleeping Cat"
+    },
+    {
+      "src": "/pages/stephen-collage/stephen-collage.jpg",
+      "caption": "Reference Image",
+      "isBackground": true
+    }
+  ],
+  "credits": [
+    {
+      "name": "Ryan J. Chen",
+      "role": "Photographer"
+    },
+    {
+      "name": "Miscellaneous Unnamed Artists",
+      "role": "Collage Material Sources"
+    }
+  ]
+}
