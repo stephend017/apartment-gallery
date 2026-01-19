@@ -2,7 +2,6 @@ export default function Loading() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
       <main className="max-w-4xl w-full p-12 bg-white dark:bg-black rounded-2xl shadow animate-pulse">
-        
         {/* Title */}
         <div className="h-12 w-2/3 bg-zinc-200 dark:bg-zinc-800 rounded mb-4" />
 
@@ -23,5 +22,5 @@ export default function Loading() {
         </div>
       </main>
     </div>
-  )
+  );
 }

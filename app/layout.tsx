@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Noto_Sans, Edu_NSW_ACT_Cursive } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Noto_Sans,
+  Edu_NSW_ACT_Cursive,
+} from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
