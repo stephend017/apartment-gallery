@@ -1,0 +1,37 @@
+{
+  "title": "This is Fine (Chinese)",
+  "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2025",
+      "format": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
+  ],
+  "description": "Poster Paper. Set of two.\n\nMs. Magdalene Lam chanced upon this work of art while on a compulsive online shopping spree. In a bid to introduce some Chinese elements into the residence, Ms. Lam thought that this set of posters was a comically accurate reflection of her mental state while working for a former employer, and brought her more joy than she thought was humanely possible. Ms. Lam was particularly fond of the couplets in the background and bubble tea on the table.\n\nThe set of two posters is an homage to the widely popular “This is Fine” meme and Season 2 Episode 19 of the NBC comedy, Community.\n\nThe poster on the left is one of the first recorded examples of Schrodinger's irony. Having been one of the first works to be displayed in this residence, it was hung without a proper level tool, resulting in it being slanted. This pays true homage to the message it sends “this is fine”.",
+  "images": [
+    {
+      "src": "/pages/this-is-fine/fine-1.jpg",
+      "caption": "Poster (Displayed Left)"
+    },
+    {
+      "src": "/pages/this-is-fine/fine-2.jpg",
+      "caption": "Poster (Displayed Right)",
+      "isBackground": true
+    },
+    {
+      "src": "/pages/this-is-fine/level.jpg",
+      "caption": "Level tool displaying the slant of the left poster"
+    }
+  ],
+  "credits": [
+    {
+      "name": "Ni De Mama",
+      "role": "Seller"
+    }
+  ]
+}
