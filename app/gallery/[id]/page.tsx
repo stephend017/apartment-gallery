@@ -5,6 +5,7 @@ import { join } from "path";
 import { ImageFigure } from "./image-figure";
 import { Title } from "./title";
 import { Description } from "./description";
+import { Credits } from "./credits";
 
 type PageProps = {
   params: Promise<{
@@ -33,7 +34,7 @@ export default async function GalleryPage({ params }: PageProps) {
     notFound();
   }
 
-  const { title, metadata, description, images } = content;
+  const { title, metadata, description, images,credits } = content;
 
   return (
     <div
@@ -76,6 +77,8 @@ export default async function GalleryPage({ params }: PageProps) {
             />
           ))}
         </section>
+
+        <Credits credits={credits} />
       </main>
     </div>
   );

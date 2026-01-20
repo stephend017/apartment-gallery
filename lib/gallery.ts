@@ -14,6 +14,10 @@ export interface GalleryContent {
     caption?: string;
     isBackground?: boolean;
   }>;
+  credits: {
+    name: string;
+    role: string;
+  }[];
 }
 
 export async function loadGalleryContent(id: string): Promise<GalleryContent> {
