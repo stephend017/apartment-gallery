@@ -1,0 +1,29 @@
+{
+  "title": "Sleep No More",
+  "metadata": [
+    {
+      "label": "Acquired",
+      "value": "May 2022",
+      "format": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
+  ],
+  "description": "Poster paper.\n\nMs. Magdalene Lam visited the world renowned production of Sleep No More, an interactive adaptation of the Shakespearean tragedy MacBeth, at the McKittrick Hotel. The production of Sleep No More ran in New York City from 2011 to 2025, and was the moment that Ms. Lam realized her calling was to be a background character, and never the lead.",
+  "images": [
+    {
+      "src": "/pages/sleep-no-more/sleep-no-more.jpg",
+      "caption": "Original Poster",
+      "isBackground": true
+    }
+  ],
+  "credits": [
+    {
+      "name": "Sleep No More",
+      "role": "Immersive Theater Production"
+    }
+  ]
+}
