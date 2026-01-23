@@ -1,0 +1,28 @@
+{
+  "title": "Copium",
+  "metadata": [
+    {
+      "label": "Painted",
+      "value": "2025",
+      "format": "date"
+    },
+    {
+      "label": "Painter",
+      "value": "Stephen E. Davis",
+      "format": "person"
+    }
+  ],
+  "description": "",
+  "images": [
+    {
+      "src": "/pages/copium/copium-painted.jpg",
+      "caption": "Original Painting (acrylic on canvas)",
+      "isBackground": true
+    },
+    {
+      "src": "/pages/copium/copium-reference.png",
+      "caption": "Reference Image",
+      "expand": true
+    }
+  ]
+}

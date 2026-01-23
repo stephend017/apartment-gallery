@@ -13,6 +13,7 @@ export interface GalleryContent {
     src: string;
     caption?: string;
     isBackground?: boolean;
+    expand?: boolean;
   }>;
   credits: {
     name: string;

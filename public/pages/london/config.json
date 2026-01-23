@@ -1,0 +1,27 @@
+{
+  "title": "London",
+  "metadata": [
+    {
+      "label": "Painted",
+      "value": "2025",
+      "format": "date"
+    },
+    {
+      "label": "Painter",
+      "value": "Stephen E. Davis",
+      "format": "person"
+    }
+  ],
+  "description": "",
+  "images": [
+    {
+      "src": "/pages/london/london-painted.jpg",
+      "caption": "Original Painting (acrylic on canvas)",
+      "isBackground": true
+    },
+    {
+      "src": "/pages/london/london-reference.jpeg",
+      "caption": "Reference Image"
+    }
+  ]
+}

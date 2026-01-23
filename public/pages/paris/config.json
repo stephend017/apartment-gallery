@@ -1,0 +1,27 @@
+{
+  "title": "Paris",
+  "metadata": [
+    {
+      "label": "Painted",
+      "value": "2025",
+      "format": "date"
+    },
+    {
+      "label": "Painter",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
+  ],
+  "description": "",
+  "images": [
+    {
+      "src": "/pages/paris/paris-painted.jpg",
+      "caption": "Original Painting (acrylic on canvas)",
+      "isBackground": true
+    },
+    {
+      "src": "/pages/paris/paris-reference.jpeg",
+      "caption": "Reference Image"
+    }
+  ]
+}
