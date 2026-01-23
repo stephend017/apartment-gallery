@@ -31,8 +31,13 @@ mkdir -p "$QR_OUTPUT_DIR"
 # Create CSV with header
 echo "URL;QR Code Title (for reference)" > "$OUTPUT_FILE"
 
+# Initialize counter
+count=0
+
+mapfile -t directories < <(find "$TARGET_DIR" -mindepth 1 -maxdepth 1 -type d -printf "%f\n")
+
 # List directory names, generate QR codes, and append to CSV
-find "$TARGET_DIR" -mindepth 1 -maxdepth 1 -type d -printf "%f\n" | while read dirname; do
+for dirname in "${directories[@]}"; do
     url="${BASE_URL}${dirname}"
     qr_file="${QR_OUTPUT_DIR}/${dirname}.png"
     
@@ -41,6 +46,9 @@ find "$TARGET_DIR" -mindepth 1 -maxdepth 1 -type d -printf "%f\n" | while read d
     
     # Add to CSV
     echo "${url};${dirname}" >> "$OUTPUT_FILE"
+
+    # Increment counter
+    count=$((count + 1))
     
     echo "Generated QR code: $qr_file"
 done
@@ -48,3 +56,10 @@ done
 echo ""
 echo "CSV file created: $OUTPUT_FILE"
 echo "QR codes saved in: $QR_OUTPUT_DIR/"
+
+echo ""
+echo "================================================"
+echo "CSV file created: $OUTPUT_FILE"
+echo "QR codes saved in: $QR_OUTPUT_DIR/"
+echo "Total QR codes generated: $count"
+echo "================================================"
