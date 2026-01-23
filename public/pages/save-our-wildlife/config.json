@@ -1,0 +1,29 @@
+{
+  "title": "Save our Wildlife [Trumpeter Swan]",
+  "metadata": [
+    {
+      "label": "Acquired",
+      "value": "December 2025",
+      "format": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Ryan J. Chen",
+      "format": "person"
+    }
+  ],
+  "description": "Poster paper.\n\nAn avid fan of museums, Mr. Ryan J. Chen acquired this piece on a recent trip to the Poster House in New York City. This was a gift from Mr. Chen to Ms. Magdalene Lam, whose immense love for animals has resulted in the residence turning into a part-time zoo, part-time home. This poster is part of the series “Blazing A Trail: Dorothy Waugh’s National Parks Posters” that was on display at Poster House NYC from September 2025 to February 2026.",
+  "images": [
+    {
+      "src": "/pages/save-our-wildlife/save-wildlife.jpg",
+      "caption": "Poster",
+      "isBackground": true
+    }
+  ],
+  "credits": [
+    {
+      "name": "Dorothy Waugh (1935)",
+      "role": "Collection"
+    }
+  ]
+}
