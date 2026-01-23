@@ -1,0 +1,17 @@
+{
+  "title": "Coffee Table",
+  "metadata": [
+  ],
+  "description": "",
+  "images": [
+    {
+      "src": "/pages/coffee-table/coffee-table.jpg",
+      "caption": "Original Poster",
+      "isBackground": true
+    },
+    {
+      "src": "/pages/coffee-table/recreation.jpg",
+      "caption": "Artistic Recreation"
+    }
+  ]
+}
