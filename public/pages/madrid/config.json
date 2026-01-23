@@ -1,0 +1,13 @@
+{
+  "title": "Madrid (Poster)",
+  "metadata": [
+  ],
+  "description": "",
+  "images": [
+    {
+      "src": "/pages/madrid/madrid-poster.jpg",
+      "caption": "Original",
+      "isBackground": true
+    }
+  ]
+}

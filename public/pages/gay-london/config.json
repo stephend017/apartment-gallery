@@ -1,0 +1,23 @@
+{
+  "title": "London 🏳️‍🌈✊",
+  "metadata": [
+    {
+      "label": "Painted",
+      "value": "?",
+      "format": "date"
+    },
+    {
+      "label": "Painter",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
+  ],
+  "description": "",
+  "images": [
+    {
+      "src": "/pages/gay-london/gay-london.jpg",
+      "caption": "Original",
+      "isBackground": true
+    }
+  ]
+}

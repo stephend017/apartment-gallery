@@ -1,0 +1,13 @@
+{
+  "title": "FyFy",
+  "metadata": [
+  ],
+  "description": "",
+  "images": [
+    {
+      "src": "/pages/fyfy/fyfy.jpg",
+      "caption": "Print",
+      "isBackground": true
+    }
+  ]
+}
