@@ -12,7 +12,7 @@
       "format": "person"
     }
   ],
-  "description": "",
+  "description": "Canvas.\n\nThe friendliest, warmest and remarkably trusting kitten you will ever chance across, Paris is the one who started this all. Keen to immortalize him for the rest of eternity, and a week from deciding to adopt him (until someone snubbed this residence of their prime kitten by putting in an application), Ms. Magdalene Lam and Mr. Stephen Davis decided to handpaint every foster kitten that has ever roamed these halls. Paris will forever be remembered as the kitten that made Ms. Lam question why she was ever a dog person and this residence’s “one that got away.”",
   "images": [
     {
       "src": "/pages/paris/paris-painted.jpg",
@@ -22,6 +22,12 @@
     {
       "src": "/pages/paris/paris-reference.jpeg",
       "caption": "Reference Image"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Artist",
+      "name": "Magdalene J.H. Lam"
     }
   ]
 }

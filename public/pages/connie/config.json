@@ -12,7 +12,7 @@
       "format": "person"
     }
   ],
-  "description": "Connie was fostered from November 2025 - present. she is very demure.",
+  "description": "Canvas\n\nThe first female kitten to grace this residence, Connie is the sister of Eddie (on display nearby), and a gentle, quiet but curious little girl. Ms. Magdalene Lam had painted this piece to continue the residence’s tradition of handpainting every foster kitten. Connie slowly captured the hearts of Ms. Lam and Mr. Stephen Davis with her demure and gentle demeanor. From the first moment Mr. Davis carried her from under the bathroom sink, Connie has consistently shown that she deserves to be loved and fed by not swatting at her fosters or chewing them (unlike her spicy brother).",
   "images": [
     {
       "src": "/pages/connie/painted.jpg",
@@ -22,6 +22,12 @@
     {
       "src": "/pages/connie/reference.jpeg",
       "caption": "Reference Image"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Artist",
+      "name": "Magdalene J.H. Lam"
     }
   ]
 }

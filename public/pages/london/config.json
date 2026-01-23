@@ -12,7 +12,7 @@
       "format": "person"
     }
   ],
-  "description": "",
+  "description": "Canvas.\n\nParis’ smaller, anxious brother. Mr. Stephen Davis painted this piece as a complement to “Paris,” on display nearby. Unlike his brother, London had barely taken a liking to the household, and was one of the reasons why Mr. Davis veto’ed Ms. Lam’s decision to adopt the pair. Could Mr. Davis’ intentional use of abstraction in this portrait be a reflection of his feelings towards London? What feelings do London’s solemn, poignant features convey? We will never truly know.",
   "images": [
     {
       "src": "/pages/london/london-painted.jpg",
@@ -22,6 +22,12 @@
     {
       "src": "/pages/london/london-reference.jpeg",
       "caption": "Reference Image"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Artist",
+      "name": "Stephen E. Davis"
     }
   ]
 }

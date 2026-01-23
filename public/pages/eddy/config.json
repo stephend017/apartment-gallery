@@ -12,7 +12,7 @@
       "format": "person"
     }
   ],
-  "description": "Eddy was fostered from November 2025 - present. He is an asshole who swats",
+  "description": "Canvas\n\nA playful, bubbly and sometimes insane kitten, Eddie came into the residence with nothing but energy. Named after the building he was trapped in (a Con Edison facility), Eddie came into Mr. Stephen Davis and Ms. Magdalene Lam’s lives with a burst of energy. After two weeks in the residence, Eddie began showing his true colors by shredding open Churu packets and swatting at treats. On good days, you will find Eddie curled in Ms. Lam’s lap, purring while receiving pets (this has only happened three times). Wherever you go, Eddie’s always watching, which is why Mr. Davis had painted him to look like the “cursed Squidward” meme. ",
   "images": [
     {
       "src": "/pages/eddy/painted.jpg",
@@ -22,6 +22,12 @@
     {
       "src": "/pages/eddy/reference.jpeg",
       "caption": "Reference Image"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Artist",
+      "name": "Stephen E. Davis"
     }
   ]
 }
