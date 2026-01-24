@@ -1,10 +1,24 @@
 {
   "title": "Postcard Collage",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2019-2025",
+      "type": "date-range"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalen J.H. Lam",
+      "type": "person"
+    }
   ],
-  "description": "",
+  "description": "Card Stock, Postcard, Photo Paper.\n\nThe Postcard Collage is one of Ms. Magdalene Lam’s most ambitious works. Intending to showcase Ms. Lam’s relationships with friends, families and different countries, the collage includes letters written by Ms. Lam’s closest friends. Highlights include: a letter from Ms. E-Zen Tan to Ms. Magdalene Lam during her days in London; a picture of Ms. Lam from 2015 with Ms. Nursyaqilah Bte. Mhd. Ramlee; and a card from Ms. Rachel Lam asking her twin sister to “enjoy the soaps and shit.”",
   "images": [
   ],
   "credits": [
+    {
+      "role": "Artist(s)",
+      "name": "Various"
+    }
   ]
 }

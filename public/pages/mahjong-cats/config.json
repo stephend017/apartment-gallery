@@ -1,10 +1,24 @@
 {
   "title": "Mahjong Cats",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2025",
+      "format": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
   ],
-  "description": "",
+  "description": "Cotton paper.\n\nMahjong Cats caught Ms. Magdalene Lam’s eye, as she sauntered through Mogutable for the 500th time. Ms. Lam’s greatest accomplishment from 2024 - 2025 was teaching a group of Americans and Trinidadians how to play Singaporean Mahjong, and Mahjong Cats sang to Ms. Lam, as a testament to this feat and the liking she has taken to cats since starting to foster them. \n\nThis print was created using the giclée technique, which attains intense, saturated colors as well as a greater variety of depth and nuances. ",
   "images": [
   ],
   "credits": [
+    {
+      "role": "Creator",
+      "name": "Neko.Co.Neko"
+    }
   ]
 }
