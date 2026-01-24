@@ -14,6 +14,15 @@
   ],
   "description": "Print paper.\n\nMs. Magdalene Lam and Mr. Stephen Davis acquired this piece on their most recent trip to Singapore. Ms. Lam and Mr. Davis thought it would be a great idea to bring more Singaporean elements into the home - also because the old man manning the shop seemed sad at not getting a sale that day. Surprisingly, Ms. Lam had never visited Chinatown much in her childhood, not because she had yet to obtain her driver’s license, but because true to form, Chinatown was outside of the two-block radius that came to be her acceptable travel distance.",
   "images": [
+    {
+      "src": "/pages/singapore-chinatown/chinatown.jpg",
+      "caption": "Original",
+      "isBackground": true
+    },
+    {
+      "src": "/pages/singapore-chinatown/chinatown-real.png",
+      "caption": "Realistic Photo Recreation of Pagoda Street"
+    }
   ],
   "credits": [
     {

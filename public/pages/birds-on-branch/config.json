@@ -1,10 +1,33 @@
 {
   "title": "Birds on Branch",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2024",
+      "type": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Ryan J. Chen",
+      "type": "person"
+    }
   ],
   "description": "",
   "images": [
+    {
+      "src": "/pages/birds-on-branch/birds-left.jpg",
+      "caption": "Original (left)",
+      "isBackground": true
+    },
+    {
+      "src": "/pages/birds-on-branch/birds-right.jpg",
+      "caption": "Original (right)"
+    }
   ],
   "credits": [
+    {
+      "role": "Creator",
+      "name": "Unknown"
+    }
   ]
 }

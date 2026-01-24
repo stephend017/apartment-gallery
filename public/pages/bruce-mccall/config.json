@@ -13,6 +13,15 @@
   ],
   "description": "Print paper.\n\nObtained during her visit to the “Bruce McCall’s New York” exhibition at the New York Historical Society, both Exercity and King Kong Call spoke to Ms. Magdalene Lam due to the absurdist nature of these illustrations. In particular, Exercity reminded Ms. Lam that she should not be wasting money on a gym membership, and King Kong Call reminded Ms. Lam that New York City is actually a place where dreams are made of. In a surprising turn of events, Ms. Lam shortly moved to an apartment a couple of blocks away from the Empire State Building pictured in King Kong Call, at 120 East 34th Street.",
   "images": [
+    {
+      "src": "/pages/bruce-mccall/exercity.jpg",
+      "caption": "Exercity (2013, Right), Bruce McCall",
+      "isBackground": true
+    },
+    {
+      "src": "/pages/bruce-mccall/king-kong.jpg",
+      "caption": "King Kong (1994, Left), Bruce McCall"
+    }
   ],
   "credits": [
     {
