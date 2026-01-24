@@ -14,6 +14,11 @@
   ],
   "description": "Poster Paper.\n\nPart of the pre-union era collection. Mr. Stephen Davis stumbled upon this piece just months after moving to his first NYC residence. The simplicity of this work reminisces of his days in university where he frequented Yatagarasu with Mr. Akshay Pawar ✊🏽, a small ramen shop just outside of West Lafayette. To this day, Mr. Davis still claims it’s the “best ramen in middle America” but is often criticized as one of his worst opinions to date (primarily by Ms. Magdalene Lam).",
   "images": [
+    {
+      "src": "/pages/ramen/ramen.jpg",
+      "caption": "Original Poster",
+      "isBackground": true
+    }
   ],
   "credits": [
     {
