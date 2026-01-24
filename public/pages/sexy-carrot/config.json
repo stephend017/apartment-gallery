@@ -1,10 +1,29 @@
 {
   "title": "Sexy Carrot",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "May 2024",
+      "type": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam and Stephen E. Davis",
+      "type": "person"
+    }
   ],
-  "description": "",
+  "description": "Paint on Wood\n\nMs. Magdalene Lam and Mr. Stephen Davis acquired this piece while on holiday in the Gothic Quarter of the historic city of Barcelona. As an asexual couple (initially diagnosed by Harish S. Bhaskar) it reminds them of how animals behave in the wild. \n\nAfter its acquisition, two more works (a coffee cup and espresso cup) were added to this collection. They are currently archived for preservation and not on display. ",
   "images": [
+    {
+      "src": "/pages/sexy-carrot/sexy-carrot.jpg",
+      "caption": "Original",
+      "isBackground": true
+    }
   ],
   "credits": [
+    {
+      "role": "Artist",
+      "name": "Spanish Guy in Barcelona"
+    }
   ]
 }

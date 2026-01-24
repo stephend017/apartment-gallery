@@ -18,6 +18,10 @@
       "src": "/pages/fyfy/fyfy.jpg",
       "caption": "Print",
       "isBackground": true
+    },
+    {
+      "src": "/pages/fyfy/fyfy-real.jpg",
+      "caption": "Reference Image"
     }
   ],
   "credits": [

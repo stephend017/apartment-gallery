@@ -14,6 +14,11 @@
   ],
   "description": "Print paper.\n\nMs. Magdalene Lam and Mr. Stephen Davis acquired this piece, which was originally meant to be a gift to Mr. Joseph Dudley for completing the New York Marathon. Within minutes after purchasing the print, Mr. Dudley informed the couple that he was, in fact, injured and could not run the marathon, and Ms. Lam and Mr. Davis made the executive decision to keep the print because they feared that it would be perceived as a “consolation prize.” Ms. Lam and Mr. Davis also figured that Mr. Dudley, an avid runner, would be running another marathon sometime soon, so they’re going to go big the next time that happens.",
   "images": [
+    {
+      "src": "/pages/rat-pizza/rat-pizza.jpg",
+      "caption": "Print",
+      "isBackground": true
+    }
   ],
   "credits": [
     {

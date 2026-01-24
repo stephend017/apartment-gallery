@@ -1,10 +1,33 @@
 {
   "title": "Pigeon Bagel",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2025",
+      "type": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Stephen E. Davis",
+      "type": "person"
+    }
   ],
   "description": "",
   "images": [
+    {
+      "src": "/pages/pigeon-bagel/pigeon-bagel.jpg",
+      "caption": "Print",
+      "isBackground": true
+    },
+    {
+      "src": "/pages/pigeon-bagel/reference.png",
+      "caption": "Reference Image"
+    }
   ],
   "credits": [
+    {
+      "role": "Artist",
+      "name": "Unknown"
+    }
   ]
 }
