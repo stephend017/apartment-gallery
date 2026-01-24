@@ -1,6 +1,12 @@
 import fs from "fs/promises";
 import path from "path";
 
+interface Settings {
+  darkMode?: {
+    noGray?: boolean;
+  };
+}
+
 export interface GalleryContent {
   title: string;
   metadata: {
@@ -19,6 +25,7 @@ export interface GalleryContent {
     name: string;
     role: string;
   }[];
+  settings?: Settings;
 }
 
 export async function loadGalleryContent(id: string): Promise<GalleryContent> {

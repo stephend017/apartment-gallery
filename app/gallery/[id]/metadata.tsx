@@ -4,12 +4,17 @@ type MetadataProps = {
     value: string;
     format: string;
   }[];
+  settings?: {
+    darkMode?: {
+      noGray?: boolean;
+    };
+  }
 };
 
-export function Metadata({ metadata }: MetadataProps) {
+export function Metadata({ metadata, settings }: MetadataProps) {
   return (
     <p
-      className="text-xs sm:text-sm dark:text-zinc-400"
+      className={`text-xs sm:text-sm ${settings?.darkMode?.noGray ? 'dark:text-white' : 'dark:text-zinc-400'}`}
       style={{ fontFamily: '"Noto Sans"' }}
     >
       {metadata.map((item) => (

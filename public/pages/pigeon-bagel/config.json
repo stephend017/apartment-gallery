@@ -29,5 +29,10 @@
       "role": "Artist",
       "name": "Unknown"
     }
-  ]
+  ],
+  "settings": {
+    "darkMode": {
+      "noGray": true
+    }
+  }
 }
