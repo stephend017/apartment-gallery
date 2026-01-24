@@ -1,8 +1,18 @@
 {
-  "title": "Coffee Table",
+  "title": "Living Room",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2024",
+      "format": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
   ],
-  "description": "",
+  "description": "Print paper.\n\nMogutable has a special place in Ms. Magdalene Lam’s heart, and not because it is an Asian business. Mogutable tests Ms. Lam’s strength each time she passes by, if not because of the food-modelled chopstick rests hanging out by the door, but also the prints that hang out in the back. See “Mahjong Cats” on display nearby. \n\nPlease do not ask Ms. Lam how much she has spent at Mogutable over the last three years.",
   "images": [
     {
       "src": "/pages/coffee-table/coffee-table.jpg",
@@ -12,6 +22,12 @@
     {
       "src": "/pages/coffee-table/recreation.jpg",
       "caption": "Artistic Recreation"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Artist",
+      "name": "Chang Chih"
     }
   ]
 }

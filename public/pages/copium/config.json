@@ -7,12 +7,12 @@
       "format": "date"
     },
     {
-      "label": "Painter",
+      "label": "Donor",
       "value": "Stephen E. Davis",
       "format": "person"
     }
   ],
-  "description": "",
+  "description": "Canvas\n\nMr. Stephen Davis was reminded of this meme when it was first sent to the irreverent “Girl Talk ONLY” group chat among Ms. Magdalene Lam, Mr. Jeremy Teo and Ms. Rachel Lam. As a wave of nostalgia and love came over him, Mr. Davis made the executive decision to recreate the meme and put it on proud display. Mr. Davis had initially toyed with the idea of presenting this masterpiece to Mr. Teo but, in a possessive fit, decided to keep this piece and gift Mr. Teo a significantly smaller version of an alternate Pepe meme. \n\nThe alternate meme can be found in our Singaporean gallery.\n\n",
   "images": [
     {
       "src": "/pages/copium/copium-painted.jpg",
@@ -23,6 +23,12 @@
       "src": "/pages/copium/copium-reference.png",
       "caption": "Reference Image",
       "expand": true
+    }
+  ],
+  "credits": [
+    {
+      "role": "Artist",
+      "name": "Stephen E. Davis"
     }
   ]
 }

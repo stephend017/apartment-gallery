@@ -1,13 +1,29 @@
 {
   "title": "FyFy",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2021",
+      "format": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
   ],
-  "description": "",
+  "description": "Print\n\nMs. Magdalene Lam acquired this piece pre-union, as an homage to her first dog, Comfy (affectionately known as Fyfy). Why, you may be asking, the weird and highly unusual name? Ms. Lam and Ms. Rachel Lam, her twin sister, were barely ten when Fyfy came into their lives, and had no concept of social conventions when they agreed upon this name. Fyfy was beloved by all until he passed at the ripe old age of 18. Some (the vet) may argue that he had passed even before that, but the Lam family knows that Fyfy was a fighter even though he could not move or speak. I challenge you to name another dog that survived an invasive surgery at the age of 17.",
   "images": [
     {
       "src": "/pages/fyfy/fyfy.jpg",
       "caption": "Print",
       "isBackground": true
+    }
+  ],
+  "credits": [
+    {
+      "role": "Artist",
+      "name": "Someone on Etsy"
     }
   ]
 }

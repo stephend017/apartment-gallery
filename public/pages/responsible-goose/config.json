@@ -1,8 +1,18 @@
 {
   "title": "Responsible Goose",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2021",
+      "format": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
   ],
-  "description": "",
+  "description": "Print Paper\n\nYou know that feeling when you're in a really good mood and then someone comes along and their whole bad vibe just rubs off on you? This is the art that will protect your aura. Hello Lemon Zesty originally drew it to hang in their new art studio as a reminder to themself and to others that we all have the power to control our own moods. \"Please Take Responsibility For The Energy You Bring Into This Space\" is a nice way to say \"Don't bring your shit vibes near me.\"",
   "images": [
     {
       "src": "/pages/responsible-goose/responsible-goose.jpg",
@@ -11,5 +21,9 @@
     }
   ],
   "credits": [
+    {
+      "role": "Creator",
+      "name": "Hello Lemon Zesty"
+    }
   ]
 }

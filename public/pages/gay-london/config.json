@@ -1,23 +1,29 @@
 {
-  "title": "London 🏳️‍🌈✊",
+  "title": "Pride London 🏳️‍🌈✊",
   "metadata": [
     {
       "label": "Painted",
-      "value": "?",
+      "value": "2020",
       "format": "date"
     },
     {
-      "label": "Painter",
-      "value": "Magdalene J.H. Lam",
+      "label": "Donor",
+      "value": "Lucas Forbes",
       "format": "person"
     }
   ],
-  "description": "",
+  "description": "Canvas. On Loan.\n\nPainted by Mr. Lucas Forbes while they were living in their 260 Riverside Drive apartment, Mr. Forbes and Ms. Magdalene Lam decided to sporadically embark on a painting journey of the two places that meant the most to them (at that time): London and New York City. Unfortunately, Ms. Lam’s black-and-white rendition of New York City did not survive her multiple moves, but this masterpiece will remain a testament to a lost time in history (both metaphorically and literally).",
   "images": [
     {
       "src": "/pages/gay-london/gay-london.jpg",
       "caption": "Original",
       "isBackground": true
+    }
+  ],
+  "credits": [
+    {
+      "role": "Painter",
+      "name": "Lucas Forbes"
     }
   ]
 }

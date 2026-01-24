@@ -1,13 +1,29 @@
 {
   "title": "Madrid (Poster)",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2023",
+      "format": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
   ],
-  "description": "",
+  "description": "Print paper.\n\nMs. Magdalene Lam chanced upon this print on her first trip to Spain, alongside her extended family. Ms. Lam’s love for prints, postcards and everything in between led her down a dark alley in the middle of Madrid, where she located this hidden gem in a place she has forgotten about. Shortly after the acquisition of this piece, Ms. Lam’s family came down with terrible cases of the Coronavirus-19 and/or a stomach flu, with her remaining the sole survivor (alongside Mr. Alvin Ng). Unfortunately, upon returning to New York City, Ms. Lam’s triumph was short-lived as she, too, succumbed to a bad case of the stomach flu (which she promptly spread to Mr. Stephen Davis).",
   "images": [
     {
       "src": "/pages/madrid/madrid-poster.jpg",
       "caption": "Original",
       "isBackground": true
+    }
+  ],
+  "credits": [
+    {
+      "role": "Seller",
+      "name": "Unknown Vintage Store in Madrid (LGBT District)"
     }
   ]
 }
