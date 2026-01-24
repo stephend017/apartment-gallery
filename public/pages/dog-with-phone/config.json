@@ -5,6 +5,11 @@
       "label": "Acquired",
       "value": "2021",
       "format": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
     }
   ],
   "description": "Cardstock.\n\nMs. Magdalene J.H. Lam, the female tenant of this residence, acquired this magnificent piece pre-union. Ms. Lam chanced upon this print at an artists’ flea, which she frequents on the weekends because she can never sit still or be at home. The irony of this print is twofold: how can a dog ever answer the phone; and who even uses landlines anymore? \n\nThis piece is an homage to the trailblazing social media application of the 2010s: Vine, which planted the seeds of this exquisite print.",
@@ -13,6 +18,12 @@
       "src": "/pages/dog-with-phone/dog-with-phone.jpg",
       "caption": "Print (Reproduction)",
       "isBackground": true
+    }
+  ],
+  "credits": [
+    {
+      "role": "Creator",
+      "name": "Unknown"
     }
   ]
 }
