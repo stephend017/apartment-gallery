@@ -1,10 +1,29 @@
 {
   "title": "Scary Lady",
   "metadata": [
+    {
+      "label" : "Acquired",
+      "value" : "2023",
+      "format" : "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format" : "person"
+    }
   ],
-  "description": "",
+  "description": "Recycled paper.\n\nAn avid fan of the horror genre, specifically Junji Ito, Ms. Magdalene Lam acquired this piece to the dissatisfaction of Mdm. Ng Lay Khim, who thought it was too creepy. This just emboldened Ms. Lam, who was inspired to shock and terrify new visitors to the residence upon their first visit to the bathroom. Unfortunately, the scaring effect that Scary Lady has on visitors is dampened by Bold and Brash and Calm Down hanging nearby, as Ms. Lam was truly conflicted on the “vibes” the bathroom should exude.",
   "images": [
+    {
+      "src": "/pages/scary-lady/scary-lady.jpg",
+      "caption": "Original Painting",
+      "isBackground": true
+    }
   ],
   "credits": [
+    {
+      "role": "Artist",
+      "name": "Unknown"
+    }
   ]
 }

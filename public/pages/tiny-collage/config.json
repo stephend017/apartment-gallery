@@ -1,10 +1,33 @@
 {
   "title": "Tiny Collage",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2017-2022",
+      "format": "date-range"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
   ],
-  "description": "",
+  "description": "Photo paper, Cardstock, Postcard.\n\nAnother one of Ms. Magdalene Lam’s creations, the Tiny Collage features notable moments from Ms. Lam’s teenage-early adult life. Highlights include: a photograph of the Raffles Junior College’s debate team (featuring Mr. Jonathan Yap and Mr. Lee Ningkai), a postcard from the Maid of the Mist (Niagara Falls) that Ms. Lam acquired after taking the New York Bar Exam, and a nametag from the European Law Moot Court held in Barcelona, Spain, where she served as a coach for the Columbia Law School Team (the only American team, that also made it to the semi-finals but dropped out because the competition was taking place during the finals period).",
   "images": [
+    {
+      "src": "/pages/tiny-collage/tiny-collage.jpg",
+      "caption": "Collage (Homemade)",
+      "isBackground": true
+    }
   ],
   "credits": [
+    {
+      "role": "Artist(s)",
+      "name": "Unknown"
+    },
+    {
+      "role": "Phtotography",
+      "name": "Magdalene J.H. Lam"
+    }
   ]
 }

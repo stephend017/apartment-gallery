@@ -1,10 +1,29 @@
 {
   "title": "Calm Down",
   "metadata": [
+    {
+      "label" : "Acquired",
+      "value" : "2024",
+      "format" : "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
   ],
-  "description": "",
+  "description": "Print paper.\n\nAnother one of Ms. Katie Scarlett’s works, Ms. Magdalene Lam acquired Calm Down as an addition to the residence’s bathroom. Ms. Lam thought that this piece would contribute to the bathroom being a “safe space,” especially given the warzone Mr. Stephen Davis creates after his morning coffee. ",
   "images": [
+    {
+      "src": "/pages/calm-down/calm-down.jpg",
+      "caption": "Original Print",
+      "isBackground": true
+    }
   ],
   "credits": [
+    {
+      "role": "Artist",
+      "name": "Katie Scarlett"
+    }
   ]
 }

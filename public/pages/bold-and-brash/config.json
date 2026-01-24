@@ -1,10 +1,33 @@
 {
   "title": "Bold and Brash",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2020 (pre-pandemic)",
+      "format": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
   ],
-  "description": "",
+  "description": "Canvas.\n\nMr. Tentacles is the credited artist of this piece, also known as “Belongs in the Trash.” Originally intended for Mr. Monty P. Moneybags, Bold and Brash quickly became a part of Ms. Magdalene Lam’s collection and one of her prized possessions. Mr. Stephen Davis, upon learning that Ms. Lam had acquired this piece, knew that she was his missing piece, and so catalyzed the beautiful union.",
   "images": [
+    {
+      "src": "/pages/bold-and-brash/bold-and-brash.jpg",
+      "caption": "Original Painting",
+      "isBackground": true
+    },
+    {
+      "src": "/pages/bold-and-brash/artist.jpg",
+      "caption": "Artist"
+    }
   ],
   "credits": [
+    {
+      "role": "Artist",
+      "name": "Mr. Squidward Tentacles"
+    }
   ]
 }
