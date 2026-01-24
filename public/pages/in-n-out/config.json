@@ -1,10 +1,24 @@
 {
   "title": "In-N-Out",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2025",
+      "type": "date"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "type": "person"
+    }
   ],
-  "description": "",
+  "description": "Fine Art paper.\n\nMs. Magdalene Lam and Mr. Stephen Davis chanced upon this piece at an “Artists and Fleas” in Williamsburg, Brooklyn. Ms. Lam’s interest was piqued because, a few months prior in June 2025, the couple had the honor of attending Mr. Samar Rizvi and Mrs. Nitya Rizvi’s wedding (which was one of the best they had ever been to), when she had her first taste of the legendary In-N-Out burger. Ms. Lam ranks the burger (animal style, of course), as one of the, if not the, best fast food burgers that has ever graced her palate, although the fries leave much to be desired.\n\nMs. Lam would like to convey her gratitude to Mr. I-Zac Lee, Ms. Sophie Low and Mr. Harish Sai Bhaskar for giving her the opportunity to embark on this life-changing journey.",
   "images": [
   ],
   "credits": [
+    {
+      "role": "Artist",
+      "name": "Katie Scarlett"
+    }
   ]
 }
