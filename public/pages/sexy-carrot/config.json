@@ -18,6 +18,10 @@
       "src": "/pages/sexy-carrot/sexy-carrot.jpg",
       "caption": "Original",
       "isBackground": true
+    },
+    {
+      "src": "/pages/sexy-carrot/other-collection.jpeg",
+      "caption": "Other works in the collection"
     }
   ],
   "credits": [
