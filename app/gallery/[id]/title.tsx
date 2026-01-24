@@ -7,9 +7,14 @@ type TitleProps = {
     value: string;
     format: string;
   }[];
+  settings?: {
+    darkMode?: {
+      noGray?: boolean;
+    };
+  };
 };
 
-export function Title({ title, metadata }: TitleProps) {
+export function Title({ title, metadata, settings }: TitleProps) {
   return (
     <header className="mb-4 sm:mb-6">
       <h1
@@ -18,7 +23,7 @@ export function Title({ title, metadata }: TitleProps) {
       >
         {title}
       </h1>
-      <Metadata metadata={metadata} />
+      <Metadata metadata={metadata} settings={settings} />
     </header>
   );
 }

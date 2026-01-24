@@ -3,9 +3,14 @@ type CreditsProps = {
     name: string;
     role: string;
   }>;
+  settings?: {
+    darkMode?: {
+      noGray?: boolean;
+    };
+  }
 };
 
-export function Credits({ credits }: CreditsProps) {
+export function Credits({ credits, settings }: CreditsProps) {
   if (!credits || credits.length === 0) {
     return null;
   }
@@ -16,7 +21,7 @@ export function Credits({ credits }: CreditsProps) {
         {credits.map((credit, index) => (
           <p
             key={index}
-            className="text-sm dark:text-zinc-400 italic"
+            className={`text-sm ${settings?.darkMode?.noGray ? 'dark:text-white' : 'dark:text-zinc-400'} italic`}
             style={{ fontFamily: '"Noto Sans"' }}
           >
             {credit.name} — {credit.role}

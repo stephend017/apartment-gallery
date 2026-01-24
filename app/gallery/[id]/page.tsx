@@ -34,7 +34,7 @@ export default async function GalleryPage({ params }: PageProps) {
     notFound();
   }
 
-  const { title, metadata, description, images,credits } = content;
+  const { title, metadata, description, images,credits, settings } = content;
 
   return (
     <div
@@ -78,7 +78,7 @@ export default async function GalleryPage({ params }: PageProps) {
           ))}
         </section>
 
-        <Credits credits={credits} />
+        <Credits credits={credits} settings={settings} />
       </main>
     </div>
   );
