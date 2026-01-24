@@ -1,10 +1,30 @@
 {
   "title": "Mag Collage",
   "metadata": [
+    {
+      "label": "Acquired",
+      "value": "2017-2024",
+      "format": "date-range"
+    },
+    {
+      "label": "Donor",
+      "value": "Magdalene J.H. Lam",
+      "format": "person"
+    }
+
   ],
-  "description": "",
+  "description": "Photo paper, Cardstock, Postcard, Drawing Paper.\n\nMs. Magdalene Lam’s most elaborate and meaningful collage, the Mag Collage contains more highlights from her pre-union years. A couple of notable items feature in this collage: a sketch-portrait of Ms. Lam that was done by a stranger on the “1” train, two photographs of Ms. Lam and her friends from junior college (featuring Ms. Amy Tan and Mr. Lin Fangyuan), a photograph from Ms. Lam’s cosplay days with Ms. Joyce Teo, and the security badge that was assigned to Ms. Lam during her time with the United Nations Mine Action Service (Geneva) with a security clearance of “A.” This collage is a testament to Ms. Lam’s belief that she had peaked in law school, and fuels her dreams of leaving corporate, financial services law behind someday.",
   "images": [
+    {
+      "src": "/pages/mag-collage/mag-collage.jpg",
+      "caption": "Collage",
+      "isBackground": true
+    }
   ],
   "credits": [
+    {
+      "role": "Individual Works",
+      "name": "Unknown"
+    }
   ]
 }
