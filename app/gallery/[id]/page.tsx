@@ -62,7 +62,7 @@ export default async function GalleryPage({ params }: PageProps) {
           dark:border-white/10
         "
       >
-        <Title title={title} metadata={metadata} />
+        <Title title={title} metadata={metadata} settings={settings} />
 
         <Description description={description} />
 
